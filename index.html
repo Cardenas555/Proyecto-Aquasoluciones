@@ -5,40 +5,43 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Título de la Página -->
-        <title>Gestión Universidad de Nariño</title>
+        <title>AquaSoluciones</title>
     </head>
     <body>
         <!-- Encabezado -->
         <header>
-        <!-- Agrega el logo de la universidad -->
-            <img src="imgenes/Logo.png" alt="Logo Universidad de Nariño"width="100">
-        <!-- Título principal -->
-            <h1>Universidad de Nariño</h1>
-        <!-- Breve descripción -->
-            <p>Gestión de Estudiantes y Docentes</p>
+            <section class="contenedor">
+              <h1>AquaSoluciones</h1>
+            </section>
+        
+        <!-- Menu Navegador -->
+            <div>
+                <nav>
+                 <b> <ul class="menu">
+                    <li><a href="inicio.html" class="active">INICIO</a></li>
+                    <li><a href="acerca.html">ACERCA DE NOSOTROS</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                  </ul></b>
+                </nav>
+            </div>
+              
         </header>
-
-        <!-- Menú de Navegación -->
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#estudiantes">Estudiantes</a></li>
-                <li><a href="#docentes">Docentes</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
 
         <main>
             <section id="inicio">
-                <h2>Bienvenido</h2>
-                <p>Plataforma para la gestión de estudiantes y docentes.</p>
-                <!-- Contenedor para imágenes con estilo Flexbox -->
-                <div style="display: flex; gap: 10px;">
-                    <img src="imgenes/estudiantes.png" alt="Estudiantes de la Universidad de Nariño" width="300">
-                    <img src="imgenes/docentes.jpeg" alt="Docentes de la Universidad de Nariño" width="300">
+                <!-- acerca de nosotros -->
+                <div class="contenedor2">
+                    <div class="texto">
+                    <h2 id="estiloh2">Acerca de Nosotros</h2>
+                    <p id="acerca">Somos una empresa de Servicios Públicos Domiciliarios, que se dedica a la producción integral del agua potable, manejo de redes de acueducto, alcantarillado y conservación del ambiente, satisfaciendo así las necesidades de nuestros usuarios y contribuyendo al mejoramiento de la calidad de vida de la comunidad.</p>
+                    </div>
+                    <div class="imagen">
+                    <img src="imagenes/logo.png" alt="#">
+                    </div>
                 </div>
             </section>
 
+            
             <section id="estudiantes">
                 <h2>Estudiantes</h2>
                 <p>Información sobre inscripciones, horarios y cursos.</p>
